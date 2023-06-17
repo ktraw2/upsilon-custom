@@ -42,4 +42,4 @@ if ! grep '^flavor=' unsup.ini >/dev/null; then
 fi
 # unsup has to be run separately to grab forge/mc/nilloader
 $JAVA_HOME/bin/java -jar unsup.jar server
-$JAVA_HOME/bin/java -Xmn128M -Xms4G -Xmx4G -javaagent:nilloader.jar -cp forge.jar:minecraft-server.jar net.minecraft.server.MinecraftServer nogui
+$JAVA_HOME/bin/java -Dnil.alwaysUseAdHocLogger=true -Xmn128M -Xms4G -Xmx4G -javaagent:nilloader.jar -cp forge.jar:minecraft-server.jar net.minecraft.server.MinecraftServer nogui
