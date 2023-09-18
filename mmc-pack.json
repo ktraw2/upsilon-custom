@@ -22,6 +22,16 @@
             "version": "1.4.7"
         },
         {
+            "cachedName": "unsup",
+            "cachedVersion": "0.2.3",
+            "uid": "com.unascribed.unsup"
+        },
+        {
+            "cachedName": "NilLoader",
+            "cachedVersion": "1.3.3",
+            "uid": "com.unascribed.nilloader"
+        },
+        {
             "cachedName": "Forge",
             "cachedRequires": [
                 {
