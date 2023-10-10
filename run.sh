@@ -37,7 +37,7 @@ if ! grep '^flavor=' unsup.ini >/dev/null; then
 	echo '[flavors]' >> unsup.ini
 	echo "flavor=$FLAVOR" >> unsup.ini
 	echo "gregtech=gregtech_$GREGTECH" >> unsup.ini
-	echo "dartcraft=dartcraft_$GREGTECH" >> unsup.ini
+	echo "dartcraft=dartcraft_$DARTCRAFT" >> unsup.ini
 	echo 'Your selections have been saved to unsup.ini.'
 fi
 # unsup has to be run separately to grab forge/mc/nilloader
