@@ -21,11 +21,21 @@ if ! grep '^flavor=' unsup.ini >/dev/null; then
 			break
 		done
 	}
+	function noyes() {
+		while true; do
+			read -p " $1? [y/N] " RESPONSE
+			case $RESPONSE in
+				Y|y) echo 'on' ;;
+				''|N|n) echo 'off' ;;
+				*) echo 'Invalid choice'; continue ;;
+			esac
+			break
+		done
+	}
 	while true; do
-		read -p ' Flavor? [STANDARD/compatible/skyblock] ' FLAVOR
+		read -p ' Flavor? [STANDARD/skyblock] ' FLAVOR
 		case $FLAVOR in
 			''|STANDARD|Standard|standard) FLAVOR=standard ;;
-			COMPATIBLE|Compatible|compatible) FLAVOR=compatible ;;
 			SKYBLOCK|Skyblock|skyblock) FLAVOR=skyblock ;;
 			*) echo 'Invalid choice'; continue ;;
 		esac
@@ -33,13 +43,15 @@ if ! grep '^flavor=' unsup.ini >/dev/null; then
 	done
 	GREGTECH=$(yesno GregTech)
 	DARTCRAFT=$(yesno DartCraft)
+	POWERCONVERTERS=$(noyes PowerConverters)
 	echo >> unsup.ini
 	echo '[flavors]' >> unsup.ini
 	echo "flavor=$FLAVOR" >> unsup.ini
 	echo "gregtech=gregtech_$GREGTECH" >> unsup.ini
 	echo "dartcraft=dartcraft_$DARTCRAFT" >> unsup.ini
+	echo "powerconverters=powerconverters_$POWERCONVERTERS" >> unsup.ini
 	echo 'Your selections have been saved to unsup.ini.'
 fi
 # unsup has to be run separately to grab forge/mc/nilloader
 $JAVA_HOME/bin/java -jar unsup.jar server
-$JAVA_HOME/bin/java -Dnil.alwaysUseAdHocLogger=true -Xmn128M -Xms4G -Xmx4G -javaagent:nilloader.jar -cp forge.jar:minecraft-server.jar net.minecraft.server.MinecraftServer nogui
+$JAVA_HOME/bin/java -Dnil.alwaysUseAdHocLogger=true -Xmn128M -Xms4G -Xmx4G -javaagent:nilloader.jar -cp "forge.jar;minecraft-server.jar" net.minecraft.server.MinecraftServer nogui
