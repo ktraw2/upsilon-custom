@@ -1,14 +1,11 @@
 coremods/UltimateSkyblock.jar
 coremods/NilInjector.jar
-coremods/SplashAnimation.jar
 nilmods/NiteLoader.jar
 mods/VoxelMap.litemod
 mods/DartCraft.jar
 mods/GregTech.zip
 mods/PowerConverters.jar
 mods/InvTweaks.zip
-config/extrabiomes/extrabiomes.cfg
-config/extrabiomes/extrabiomes.cfg.ultimateCompat
 scripts/dartcraft.zs
 icon.png
 README.md

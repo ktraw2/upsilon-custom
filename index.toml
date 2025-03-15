@@ -1,12 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "animation.ogv"
-hash = "3f4aecb990ac8841c84eb4461fc9cf6cef508229516c2ce7799b6af76676f31a"
-
-[[files]]
 file = "config/AdvancedMachines.cfg"
-hash = "99c8f5c782c8ae52c9ab2193c60373bf946a5b138986562d6a03ee04814b6e4e"
+hash = "1c9a70fd7962cf9dcee26fddaef5011d8a751fbcdcc13af884add37b2cee6eac"
 
 [[files]]
 file = "config/AdvancedSolarPanel.cfg"
@@ -23,6 +19,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/BiblioCraft.cfg"
 hash = "3ac7a8d7c0195dfae3ac2ea8ce37e74c9b64d11471b7f7ea5b166da1dd72c747"
+
+[[files]]
+file = "config/BiomesOPlenty.cfg"
+hash = "05ceaa055e8d1a94c76ac51336bdb540c2e38833f7a0c6faf563c8fa18297020"
 
 [[files]]
 file = "config/BlockHelper.cfg"
@@ -62,7 +62,7 @@ hash = "541b843f40420fa103a7ed899d505b7fb486a246b373de659013f5994ad1ba2f"
 
 [[files]]
 file = "config/Flamingo.cfg"
-hash = "8a4df2e52bba753786866109aa802a9beafb184b7487bbe3637a7fd87b2a2087"
+hash = "105425eaff88366e68b4e3ae43c48279b6e21ce99e10db77f5bf8226878fb792"
 
 [[files]]
 file = "config/GraviGun.cfg"
@@ -169,6 +169,54 @@ file = "config/PLC.cfg"
 hash = "adccdb54ef92570fba8bce0970dcd62ac2ad59f03e2f04cd864a08c2a319b1f8"
 
 [[files]]
+file = "config/PamHCApple.cfg"
+hash = "d73fe18589a2962f6a777aa189edb0d1910145921b1945947f3b289f06ac5358"
+
+[[files]]
+file = "config/PamHCBase.cfg"
+hash = "7e4433f1f770a4cba115b2bc58a3ee2178a0674134e9efa796d35c36a7fe5b58"
+
+[[files]]
+file = "config/PamHCCorn.cfg"
+hash = "3541bed04c4c36e7fa089d15dd7ec7e2658b0bad1f1c423e4e371c6a7cb5b26e"
+
+[[files]]
+file = "config/PamHCCotton.cfg"
+hash = "a57a53f680f768f9c63164314a2f9155c8673c0fda1043f0bcdc8c66e6cc1942"
+
+[[files]]
+file = "config/PamHCCucumber.cfg"
+hash = "dcba52512d52e0454c7c188a8f088448cbffed273a9824a751a54be4b49c8420"
+
+[[files]]
+file = "config/PamHCGrape.cfg"
+hash = "7b7c10fae98967d901d9ad01f73b100c40107502f01b38d3139e1b03325915fa"
+
+[[files]]
+file = "config/PamHCLettuce.cfg"
+hash = "8613dfbea8523fd71914cfd3e590f743d8ee0f7a82a3a487c1615f27ce80dbaa"
+
+[[files]]
+file = "config/PamHCOnion.cfg"
+hash = "23487cfe0e18c4439d32bcc02a8b99457ddf90bc768feda5524a70c777a1b7c8"
+
+[[files]]
+file = "config/PamHCPeanut.cfg"
+hash = "c8b94264600230aa8a900c00a7c08530081923c5de91e891f3f962b43b7edaf0"
+
+[[files]]
+file = "config/PamHCStrawberry.cfg"
+hash = "a2f5fdaba9848c35774bb1d5e67b2d56a4bfbaa867d0f482c3badf1fc5d39cc6"
+
+[[files]]
+file = "config/PamHCTea.cfg"
+hash = "d659cb8abb732bbaec667604fe869763d2b308501977b1070eb9601882a10aec"
+
+[[files]]
+file = "config/PamHCTomato.cfg"
+hash = "99d56edeed6d7fdd0fafb28cfa300118f2cfe93c3829e8e64d4ca5eb2498e187"
+
+[[files]]
 file = "config/PortalGun.cfg"
 hash = "55ea973da4f6d29e6245aeec6a41da41ab53b56dccd903b696e25edd0f71292f"
 
@@ -202,7 +250,7 @@ hash = "1da3846739129f6d86094db71c6f69d4bee011e5cbddb8f1cd9f98c593814867"
 
 [[files]]
 file = "config/TwilightForest.cfg"
-hash = "d775237e9a4989f3388901502854016cb7945efdce64a9af2dc474032fa2b907"
+hash = "f30cfa266da3ca198992bd16b6da5e42899d613216b4934b665fadd27b4d9132"
 
 [[files]]
 file = "config/WirelessRedstone.cfg"
@@ -239,16 +287,6 @@ hash = "227f7835e1a06561a2f12711021ae42680e49dda4c7a63457b25577342a8edc2"
 [[files]]
 file = "config/drceph.petrogen.cfg"
 hash = "41498d583698f669bde685438b37d2a9455de69ea7365379861ae785457c94c4"
-
-[[files]]
-file = "config/extrabiomes/extrabiomes-standard.pw.toml"
-hash = "2a20a2325a0817c97f82a86b5b8b91bed4fd4c523011583dbaaac097b0a9d8e4"
-metafile = true
-
-[[files]]
-file = "config/extrabiomes/extrabiomes-ultimatecompat.pw.toml"
-hash = "52c48af3af56746e086de9332580a5fccc564abeef8943aa021f9219c64ec2ce"
-metafile = true
 
 [[files]]
 file = "config/factorization.cfg"
@@ -339,20 +377,12 @@ file = "config/rptweaks.conf"
 hash = "b3b91dff201796cd623c9391083e0670ae2e2f960abdc2fbfa4c2b65adf89b5b"
 
 [[files]]
-file = "config/splash.properties"
-hash = "176e824e1d101c3cf0d510f8c59c61656947e558655783f4811a516e7328985f"
-
-[[files]]
-file = "config/splashanimation.cfg"
-hash = "d98bb037ce0a698e244a9316d9953bd24a396db27a772342af631279c0d8e98a"
-
-[[files]]
 file = "config/upsilonfixes-enabled-layers.txt"
 hash = "29086ddd90dec47914561e8674da2e6ea044a8cf25e3182b1925c0c5fefd9cbb"
 
 [[files]]
 file = "config/upsilonfixes.css"
-hash = "599cf770c2334f5d3a700f6bfdb7070b45a5033e130d7c948f2f046f79ad8331"
+hash = "be3494987b6826703264d4c2d037ff00effbb3df02e06061c79bb32dde22e909"
 
 [[files]]
 file = "coremods/MiscPeripherals.jar"
@@ -394,11 +424,6 @@ metafile = true
 [[files]]
 file = "coremods/notenoughitems.pw.toml"
 hash = "84b6660d2f03aef486c3245fe745189d4f8941b29054e76dbf9eaa572df43ff8"
-metafile = true
-
-[[files]]
-file = "coremods/splashanimation.pw.toml"
-hash = "b0e2739cf83be44b3bbaa347f0610445946bdaca35e8aea76924e96334d40244"
 metafile = true
 
 [[files]]
@@ -454,6 +479,10 @@ file = "mods/AdvancedSolarPanel.zip"
 hash = "190a2986ccd9494db89509a1a671c7de9bd4e18ac517375ad488833ab719050e"
 
 [[files]]
+file = "mods/BoPIntegration-universal-1.4.7-0.4.0.zip"
+hash = "9ad587b4e21b0728ba81c76d20aa9743c749cfc9c2ba4544fcbe2a739d43a6e3"
+
+[[files]]
 file = "mods/ChiselRetro_beta0.9+upsilon1_mc1.4.7.zip"
 hash = "b076c854e14f99aa52654716b44cb5c01a7990ea3d4cc20f4af664d1636a12f2"
 
@@ -464,10 +493,6 @@ hash = "a45cecc8bb559a6bd536bb7d66893caa2b9eb82ef8e3fc6676c7ed38063c99ce"
 [[files]]
 file = "mods/EE3.jar"
 hash = "a047d8033e76badac909fb9a80171742dd065e1056342e3dfb5fce6488cba2c9"
-
-[[files]]
-file = "mods/ExtraBiomesXL.jar"
-hash = "46124272ed0aef136708cc19d52604380a02925680571f89f76e23fae4a2746d"
 
 [[files]]
 file = "mods/Flamingo.zip"
@@ -516,6 +541,54 @@ hash = "69fffb8de08b51813072710a1194258b8059b2fa12ddeddf63aecf4b815c57d7"
 [[files]]
 file = "mods/OmniTools.zip"
 hash = "1a30bf87a9ef6df11b5873a9af24a28c057c0613014dce447a35a0e8f7ae00bf"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Apple 1.0 (MC 1.4.6).zip"
+hash = "3234f0f3e7034c893d60ca51611e4444ee0679c2bcf4c64ad5de9d7023d8f196"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Corn 1.0 (MC 1.4.6).zip"
+hash = "795d1ceb8b7836cba517e71adaa89773e774197667cd5192617cc98c1abf06f2"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Cotton 1.0 (MC 1.4.6).zip"
+hash = "3a6318975d3664d54b7096216beeb128d1aa19fc6112c6fd4023068147bfa80f"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Cucumber 1.0 (MC 1.4.6).zip"
+hash = "96248905eb64b20e35782800da5147e9c748362d9383796da055c3009082f12d"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Grape 1.0 (MC 1.4.6).zip"
+hash = "1f0e73a7d1f0d52158cd6285b83ed2f976bb4a0e09aec14699538ccc17a89035"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Lettuce 1.0 (MC 1.4.6).zip"
+hash = "c10510628cea56681a0fea94296dbfdf99000b6239537c87c683e587d8d8fa60"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Onion 1.0 (MC 1.4.6).zip"
+hash = "9be69655bd6ad0b7663d17b39cc7d09bfa0331b2bea9dcda3d54f328a2d9b965"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Peanut 1.0 (MC 1.4.6).zip"
+hash = "cdb1bd72ce377033ed6df1dae5d25158e2bd1fa2fa8646c9fa8b1a5ab052c43e"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Strawberry 1.0 (MC 1.4.6).zip"
+hash = "6d94a80c859d99ce38edd66441426ef668fb3cfeac79cb04b26aa1897520e224"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Tea 1.0 (MC 1.4.6).zip"
+hash = "77e67e00c262385fde2e979ac9b1b5f6133d51c33fabb9425ff349a8e2057ca8"
+
+[[files]]
+file = "mods/Pam's HarvestCraft - Tomato 1.0 (MC 1.4.6).zip"
+hash = "adb989a3f55ac4510d1354068e1fdc251ad4d32c7f1fa7860f7fff710685dfe2"
+
+[[files]]
+file = "mods/Pam's HarvestCraft Base 1.01 (MC 1.4.6).zip"
+hash = "0b1d4cf245e657be2380c4256e8dca0446ac51b94bdeb30ab881627ed0ac5a84"
 
 [[files]]
 file = "mods/PetroGen.zip"
@@ -568,6 +641,10 @@ hash = "a6201970cb867323fb4aee052422f052aacb4e4ff04364b564737ea25c30f09d"
 metafile = true
 
 [[files]]
+file = "mods/backpack-1.5.7.zip"
+hash = "907cae21f78c4a017a1a219c7b18f5db13fd2781104e6eebc7968f9e1ce0c586"
+
+[[files]]
 file = "mods/bibliocraft.pw.toml"
 hash = "1ecef099f9b522977a662f4aac909169adf9b01815cbcbe8370a719fe3ad1f10"
 metafile = true
@@ -578,8 +655,12 @@ hash = "9203d11079138e3261e81a4109e72f3334bf229f6b13bf54bddd7a1fbc46ff42"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty-0.4.6.zip"
+hash = "8caf89415271874798031d03f890cf38c02c6dbc6c2e4c5c87fc24d73ed1903b"
+
+[[files]]
 file = "mods/block-helper.pw.toml"
-hash = "964c1bb45f36aeb40e30c6e42b1f4878063b4ffd83d1c99caaaebf106e9301dd"
+hash = "8f0c0ff9cfcfaf32d3686b0325d7327ca750f3ddd5df34c691732e69cd9e1884"
 metafile = true
 
 [[files]]
@@ -633,6 +714,16 @@ hash = "5cf251b76902aa6b3f06da56d0946e9dd9df2273f56a48988476314e80b25a2f"
 metafile = true
 
 [[files]]
+file = "mods/hat-stand.pw.toml"
+hash = "8e45e5284ee1ac1f12582d5209ec7e6b95c6cc7f80f51f62a364914310476c92"
+metafile = true
+
+[[files]]
+file = "mods/hats.pw.toml"
+hash = "ed324da91f1826934bc58a9bc763e4f6b664798787df6c90c21a08bc96ed20bd"
+metafile = true
+
+[[files]]
 file = "mods/immibis-core.pw.toml"
 hash = "4179ebc48c7bf08177e3a34213a9dd27ca986330927a0bb7ac7c3150d7adc4f2"
 metafile = true
@@ -669,7 +760,7 @@ metafile = true
 
 [[files]]
 file = "mods/powerconverters.pw.toml"
-hash = "965e2a9e102dde0ca1b672b48f8314569583f5d3a4ba1ae9353f9287bee5a3dc"
+hash = "4a319f494c8e9e7d7c90fc4b47d5f54bb3e9f2ea6f0db9285f7dae4f96f45fb8"
 metafile = true
 
 [[files]]
@@ -743,8 +834,8 @@ hash = "0524420197a7ea0cd1a4dbe0642d41ec795e59950fc495eb897eb7698182c1dc"
 metafile = true
 
 [[files]]
-file = "nilmods/UpsilonFixes.jar"
-hash = "6731442c33035653ac7f8225804a0bd442cfdbae9969c099cd8ce166e1f5e658"
+file = "nilmods/UpsilonFixes-1.4.2-MODIFIED.jar"
+hash = "34de5e64a2d4d4b901e3420afaed9ab999671b4f8747b15d6a23636583c4438d"
 
 [[files]]
 file = "nilmods/niteloader.pw.toml"
@@ -901,39 +992,20 @@ file = "resources/gravigun/sounds/pickup.ogg"
 hash = "b62bb040764674d69574842615e969cb26432c152acf2f7a2a4f1b73c80af813"
 
 [[files]]
-file = "resources/menumusic/felixmoog-discord.pw.toml"
-hash = "220e8eff8f4003c2b21588214cacb095ade2be8752308f27cf68b94e78ea49ee"
-metafile = true
+file = "resources/menumusic/menu1.ogg"
+hash = "676d33a3c33805e8b1bc7453468b29c31cd9ebf5a7843e912ebf8416d22a6820"
 
 [[files]]
-file = "resources/menumusic/felixmoog-fire.pw.toml"
-hash = "05d04bcfd7f502ddec8863c384c763e97ef31e8128fa275e8cfa4549c0e5d82a"
-metafile = true
+file = "resources/menumusic/menu2.ogg"
+hash = "676d33a3c33805e8b1bc7453468b29c31cd9ebf5a7843e912ebf8416d22a6820"
 
 [[files]]
-file = "resources/menumusic/felixmoog-maybe.pw.toml"
-hash = "1cc3dfd3c2147cdc00aca9422ac6915d5a252c6a520c4c5473989a9c3b9bb826"
-metafile = true
+file = "resources/menumusic/menu3.ogg"
+hash = "a5b5cf4d7a536d29d74a7a916c7905b81d105ffe0033f7378e98feb4b98c9279"
 
 [[files]]
-file = "resources/menumusic/felixmoog-pirates.pw.toml"
-hash = "c241edb9e576712de74598917b747128e6a3c46590b3fb275986946d309699aa"
-metafile = true
-
-[[files]]
-file = "resources/menumusic/xyceradix-mosaik.pw.toml"
-hash = "47c5243a433d5f74e5625449b1a701474af5c3e2c89a6023134bfe6ddad9f313"
-metafile = true
-
-[[files]]
-file = "resources/menumusic/xyceradix-nova.pw.toml"
-hash = "2ff70dd3cbfba2486418149516663ef5f6ffdd488b64f9d781db541cdf195850"
-metafile = true
-
-[[files]]
-file = "resources/menumusic/xyceradix-rainbowdash.pw.toml"
-hash = "82539efaf3972a3568cf069f320a04210d3d55c787be2a584302d93a0998cd76"
-metafile = true
+file = "resources/menumusic/menu4.ogg"
+hash = "f810dda6b014b5d6f6f0c5c2dddf5840865f47a3c9c5eba9554bf491aa6656f4"
 
 [[files]]
 file = "resources/myst/sound/link-disarm.ogg"
@@ -2222,6 +2294,14 @@ hash = "eb299d8bb9bd19d0b88a79fa5d9d6a2b488d947bc68de69c476eb6004fd72a66"
 [[files]]
 file = "resources/portalgun/streaming/portalgun/wantyougone.ogg"
 hash = "937595eb0a1af5cb2cdd39470a6825b71995cc8f59d44bd03e116348bae673bd"
+
+[[files]]
+file = "resources/streaming/bopdisc.ogg"
+hash = "f6c0add3269e04b0081a5014ebe133aa3d890efdbbb01c7919a59ba1c22abd88"
+
+[[files]]
+file = "resources/streaming/bopdiscmud.ogg"
+hash = "9f1519bbca656cae8e75f270352e6f0d7ed0ce83e4583bd18862a9084fc686e9"
 
 [[files]]
 file = "resources/thaumcraft/brain1.ogg"

@@ -1,0 +1,13 @@
+name = "Hats"
+filename = "Hats1.2.0MC147.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53c00d0260548ac436bacd033dd450d492781e87"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2232147
+project-id = 229073

@@ -251,7 +251,7 @@ features {
 	/*
 	 * Enables the Rewind Upsilon modpack branding.
 	 */
-	upsilon-branding: on;
+	upsilon-branding: off;
 
 	/*
 	 * Backports the 1.5 'water source blocks fill in above water' fix.
