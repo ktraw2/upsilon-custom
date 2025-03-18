@@ -22,7 +22,7 @@ hash = "3ac7a8d7c0195dfae3ac2ea8ce37e74c9b64d11471b7f7ea5b166da1dd72c747"
 
 [[files]]
 file = "config/BiomesOPlenty.cfg"
-hash = "05ceaa055e8d1a94c76ac51336bdb540c2e38833f7a0c6faf563c8fa18297020"
+hash = "b7c3a43af0a061fe5aea136432f487668c37f3cef8b74a2cfb4757caafd28f1a"
 
 [[files]]
 file = "config/BlockHelper.cfg"
