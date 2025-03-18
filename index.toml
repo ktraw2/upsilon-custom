@@ -86,7 +86,7 @@ hash = "99290f4ca00d1e7559450e39c9639128b7f0518ff164228ad18582e4c2169814"
 
 [[files]]
 file = "config/GregTech/Recipes.cfg"
-hash = "601a7d89bfa191c83299ac7dd3789ceb479e4415a34e0c847a965e38a65cf84e"
+hash = "76f0dd7a6d962c5aafce161a5aaa9630bd92cb1bde7b156119900a8a7179aef8"
 
 [[files]]
 file = "config/GregTech/RecipesAdvancedConfig.cfg"
