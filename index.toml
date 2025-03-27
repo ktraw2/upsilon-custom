@@ -42,7 +42,7 @@ hash = "d64c49475066257900e10046f6dfcbff80a52bae0f42ea2262f825be34dcf3e6"
 
 [[files]]
 file = "config/Chisel.cfg"
-hash = "5a22d65fb7874563e7702d67ef92e696d3d3add0fddda595c926effd69c4bf42"
+hash = "5fb1171ebc41629c63ff204ca54fc41bc8ea40ccd7f6b57b9fcd6deae41a7b1f"
 
 [[files]]
 file = "config/CodeChickenCore.cfg"
@@ -483,8 +483,8 @@ file = "mods/BoPIntegration-universal-1.4.7-0.4.0.zip"
 hash = "9ad587b4e21b0728ba81c76d20aa9743c749cfc9c2ba4544fcbe2a739d43a6e3"
 
 [[files]]
-file = "mods/ChiselRetro_beta0.9+upsilon1_mc1.4.7.zip"
-hash = "b076c854e14f99aa52654716b44cb5c01a7990ea3d4cc20f4af664d1636a12f2"
+file = "mods/ChiselRetro-beta0.9+bugfixes.jar"
+hash = "fdf8f73a52058c8f8a7a75f3b05655e4fe1ade512bfc284a72fb829056fffc99"
 
 [[files]]
 file = "mods/CoFHCore.zip"
