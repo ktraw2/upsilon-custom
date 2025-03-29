@@ -483,8 +483,8 @@ file = "mods/BoPIntegration-universal-1.4.7-0.4.0.zip"
 hash = "9ad587b4e21b0728ba81c76d20aa9743c749cfc9c2ba4544fcbe2a739d43a6e3"
 
 [[files]]
-file = "mods/ChiselRetro-beta0.9+bugfixes.jar"
-hash = "fdf8f73a52058c8f8a7a75f3b05655e4fe1ade512bfc284a72fb829056fffc99"
+file = "mods/ChiselRetro-beta0.9.1+bugfixes.jar"
+hash = "c7fbc0c21ac672286dc124ab87572d649ae3d3e21e0f1821b060f0875fcb30e9"
 
 [[files]]
 file = "mods/CoFHCore.zip"
