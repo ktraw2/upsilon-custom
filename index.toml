@@ -78,7 +78,7 @@ hash = "8e2e5b90639d98076a8a3f82ff1a08e10549aa7ad6054d879760b725213ab331"
 
 [[files]]
 file = "config/GregTech/GregTech.cfg"
-hash = "7c9057d33b126e9e1d9ac14056e74683f43b59ece72a52eb104f1150f65d59cb"
+hash = "3e0318e6a79522a7cd674b18c629c3064ac6005453adccba6b0a2264ab96c3f6"
 
 [[files]]
 file = "config/GregTech/GregTech.lang"
