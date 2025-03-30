@@ -341,6 +341,10 @@ file = "config/forgeChunkLoading.cfg"
 hash = "c0e7e4d739b50a8ad635b71bf227d88a5832ee129af0c841d0028cca8b2fe2dc"
 
 [[files]]
+file = "config/immibis-microblocks.cfg"
+hash = "f93f1d9fc2b56fee9493fca0c992f1278e27fee857c076ed44f28eed22388115"
+
+[[files]]
 file = "config/immibis.cfg"
 hash = "4f96446c79c2e7b0ec8ca0d4ed9b6809c9275f3bce488a79cc5d295ab73a6660"
 
@@ -414,6 +418,11 @@ metafile = true
 [[files]]
 file = "coremods/fallingfix.pw.toml"
 hash = "66dd44a72ab775e549259f2bd2113e9cd8b9fc6530f6c9e810dd76216b034968"
+metafile = true
+
+[[files]]
+file = "coremods/immibis-microblocks-52-1-2-jar.pw.toml"
+hash = "cae88197eef46f3a14d83f9f90e9b54482ad05635745b332f25094779c6d6ab9"
 metafile = true
 
 [[files]]
