@@ -46,7 +46,7 @@ hash = "5fb1171ebc41629c63ff204ca54fc41bc8ea40ccd7f6b57b9fcd6deae41a7b1f"
 
 [[files]]
 file = "config/CodeChickenCore.cfg"
-hash = "9a9c50c88639b46ad0f0d46829aa3b56fe9764e4d055ca31312bf6c3c2884df5"
+hash = "6ea5614ed51af4f8685e7b42d6b517430ada952f78a97948237cc23fd6afbd30"
 
 [[files]]
 file = "config/ComputerCraft.cfg"
