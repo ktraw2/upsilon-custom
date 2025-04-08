@@ -1,12 +1,12 @@
 name = "Upsilon Custom"
 author = "unascribed and ktraw2"
-version = "0.5.5_02"
+version = "0.5.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e4562183cace0b7de7e9e6680db939a2341c9ba63679a5fb901085e02f6c47ca"
+hash = "5c95338f558e610db4e361b69fb95b0d7362ceeeebce2b18b6af9823270832db"
 
 [versions]
 forge = "6.6.2.534"
