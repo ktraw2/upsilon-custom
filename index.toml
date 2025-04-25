@@ -229,6 +229,10 @@ file = "config/PowerCrystalsCore.cfg"
 hash = "70a8d031215ce520daf9868634d420b2897e28dbd7c0123149ee2b5bf325ed4d"
 
 [[files]]
+file = "config/RetroUtilities.cfg"
+hash = "01e3298b383eabeb50ce7c396d62437cf52b2101fcc5e7f6b6f01790db10e9e4"
+
+[[files]]
 file = "config/SecretRoomsMod.cfg"
 hash = "63c41ec994038d24f434f9c51414f53926e69ef060353bbf6ee4f3ca46b15efb"
 
@@ -795,6 +799,11 @@ metafile = true
 [[files]]
 file = "mods/reiminimap.pw.toml"
 hash = "9dbc7c897c138c3e2b3b03bd2224d9de72b05638e207166048285472c85ba980"
+metafile = true
+
+[[files]]
+file = "mods/retroutilities-0-1-jar.pw.toml"
+hash = "799ca7a08d1d50734d47b52a4cf4ab8b86957a5b72c060da431835b42142c144"
 metafile = true
 
 [[files]]

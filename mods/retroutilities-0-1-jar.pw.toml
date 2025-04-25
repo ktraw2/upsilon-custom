@@ -1,0 +1,7 @@
+name = "RetroUtilities-0.1.jar"
+filename = "RetroUtilities-0.1.jar"
+
+[download]
+url = "https://assets.ktraw.com/mods/RetroUtilities-0.1.jar"
+hash-format = "sha256"
+hash = "de7589cbce633800dfd235cc17496f78248464a474e3cba8ecf5c223740eb925"
